@@ -1,6 +1,7 @@
 
 import streamlit as st
 import pickle
+from PIL import Image
 import numpy as np
 import pandas as pd
 
