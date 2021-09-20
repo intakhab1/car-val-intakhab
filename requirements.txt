@@ -2,3 +2,4 @@ streamlit
 sklearn
 pandas
 numpy
+Pillow
