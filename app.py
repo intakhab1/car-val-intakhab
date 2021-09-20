@@ -4,6 +4,9 @@ import pickle
 import numpy as np
 import pandas as pd
 
+img1 = Image.open('./images/car.jpg')
+img1 = img1.resize((470,325))
+st.image(img1,use_column_width=False)
 # import the model
 pipe = pickle.load(open('model.pkl','rb'))
 df = pickle.load(open('df.pkl','rb'))
